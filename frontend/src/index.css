@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header .first {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header .first .name {
+  width: 30%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+header .first .name:focus {
+  border: 2px solid aqua;
+}
+
+header .controls {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 4px;
+}
